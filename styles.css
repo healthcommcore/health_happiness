@@ -1,3 +1,82 @@
+/* HCC edits */
+header .header-image {
+	width: 706px !important;
+	height: 60px !important;
+	background-image: url('/wp-content/uploads/sites/76/2016/10/logo.png');
+	background-size: contain;
+}
+
+.affiliate-bar #site-title-group, 
+.co-branding #site-title-group {
+	margin-bottom: 3px;
+}
+
+.main-navigation {
+	border-top: #B51927 1px solid;
+	padding-top: 20px;
+}
+
+.main-navigation li > a:after {
+	display: none;
+}
+
+.main-navigation li {
+	margin: 0 .5rem 0 0;
+}
+
+#main {
+	margin-top: 30px;
+}
+
+.widget-area {
+	margin: 110px 0 0;
+	padding-top: 26px;
+	padding-left: 12px;
+}
+
+.widget-area .widget a {
+	color: #6E8E55;
+}
+
+.widget-area .widget a:hover,
+.widget-area .widget a:focus,
+.widget-area .widget a:visited {
+	color: #455F33;
+}
+
+.entry-header {
+	margin-bottom: .9em;
+}
+
+.entry-header .entry-title {
+	font-size: 3.3rem;
+}
+
+.entry-content h2,
+.comment-content h2,
+.mu_register h2 {
+	font-size: 2em;
+	line-height: 1.3em;
+	color: #6E8E55;
+}
+
+.entry-content h2, 
+.comment-content h2 {
+	margin-bottom: .2em;
+}
+
+.entry-content p,
+.entry-summary p,
+.comment-content p,
+.mu_register p {
+	font-size: 20px;
+}
+
+.footer-menu-social {
+	display: none;
+}
+
+/* END HCC EDITS */
 .ui-accordion,
 .ui-tabs,
 .expandable,
